@@ -38,12 +38,12 @@ public class anim {
 		
 			
 	}
-  //inner class
+  	//inner class
 	class MyDrawPanel extends JPanel {
 		public void paintComponent(Graphics g) { 
 			g.setColor(Color.red);
 			g.fillOval(x,y,40,40);
 		}
 		
-	}
-}
+	}//end of the inner class
+}//end of the outer class
